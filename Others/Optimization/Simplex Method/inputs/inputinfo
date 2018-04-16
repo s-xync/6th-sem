@@ -1,0 +1,90 @@
+************************************************
+input 1
+https://www.zweigmedia.com/RealWorld/tutorialsf4/framesSimplex.html
+
+maximize
+p = 2x − 3y + z
+x + y + z ≤ 10
+4x − 3y + z ≤ 3
+2x + y − z ≤ 10
+x ≥ 0, y ≥ 0, z ≥ 0
+
+expected output 3
+************************************************
+input 2
+https://www.zweigmedia.com/RealWorld/tutorialsf4/framesSimplex.html
+
+maximize
+p = x + 2y + 3z
+7x + z  ≤  6
+x + 2y  ≤  20
+3y + 4z  ≤  30
+x ≥ 0, y ≥ 0, z ≥ 0
+
+expected output 22
+************************************************
+input 3
+http://math.uww.edu/~mcfarlat/s-prob.htm
+
+maximize
+p = x + 2y - z
+2x + y + z ≤ 14
+4x + 2y + 3z ≤ 28
+2x + 5y + 5z ≤ 30
+x ≥ 0, y ≥ 0, z ≥ 0
+
+expected output 13
+************************************************
+input 4
+https://en.wikibooks.org/wiki/Operations_Research/The_Simplex_Method
+
+maximize
+p = 2x + 3y
+2x + y ≤ 4
+x + 2y ≤ 5
+x ≥ 0, y ≥ 0
+expected output 8
+************************************************
+************************************************
+input 5
+from input 4
+
+minimize
+p = -2x - 3y
+2x + y ≤ 4
+x + 2y ≤ 5
+x ≥ 0, y ≥ 0
+expected output 8
+************************************************
+input 6
+from input 2
+
+minimize
+p = -x - 2y - 3z
+7x + z  ≤  6
+x + 2y  ≤  20
+3y + 4z  ≤  30
+x ≥ 0, y ≥ 0, z ≥ 0
+
+expected output 22
+************************************************
+input 7
+https://www.zweigmedia.com/RealWorld/tutorialsf4/framesSimplex2.html
+
+maximize
+p = 2x + 3y + z
+x + y + z  ≤  40
+2x + y − z  ≥  10
+−y + z  ≥  10
+x ≥ 0, y ≥ 0, z ≥ 0
+expected output 70
+************************************************
+input 8
+http://www.universalteacherpublications.com/univ/ebooks/or/Ch3/splcase1.htm
+
+maximize
+p = 5x + 4y
+x ≤ 7
+x - y ≤ 8
+x ≥ 0, y ≥ 0
+unbounded solution
